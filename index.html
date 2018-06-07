@@ -8,6 +8,13 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
   <title>Learning Materialize</title>
+  <style>
+    nav .badge{
+      position: relative;
+      top: 20px;
+      right: 20px;
+    }
+  </style>
 </head>
 <body>
 
@@ -22,18 +29,21 @@
           <li><a href="">Home</a></li>
           <li><a href="">About</a></li>
           <li><a href="">Contact</a></li>
-          <li><a href="" class="btn white indigo-text">Login</a></li>
+          <li><a href="" class="btn-floating z-depth-0 indigo darken-4">
+            <i class="material-icons">notifications</i>
+          </a></li>
+          <li><span class="badge white-text new pink">5</span></li>
         </ul>
-        <ul class="sidenav" id="mobile-links">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
-          </ul>
       </div>
     </nav>
   </div>
   
+  <ul class="sidenav" id="mobile-links">
+    <li><a href="">Home</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Contact</a></li>
+  </ul>
+
   <!-- Compiled and minified JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
