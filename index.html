@@ -8,41 +8,50 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
   <title>Learning Materialize</title>
-  <style>
-    nav .badge{
-      position: relative;
-      top: 20px;
-      right: 20px;
-    }
-  </style>
 </head>
 <body>
 
-  <div class="navbar-fixed">
-    <nav class="nav-wrapper indigo">
-      <div class="container">
-        <a href="#" class="brand-logo">Site Title</a>
-        <a href="#" class="sidenav-trigger" data-target="mobile-links">
-          <i class="material-icons">menu</i>
-        </a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="" class="btn-floating z-depth-0 indigo darken-4">
-            <i class="material-icons">notifications</i>
-          </a></li>
-          <li><span class="badge white-text new pink">5</span></li>
-        </ul>
+  <div class="container">
+    <h2>Cards</h2>
+    <div class="row">
+      <div class="col s12 l6">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/curry.jpg" alt="">
+            <a href="" class="halfway-fab btn-floating pink pulse">
+              <i class="material-icons">favorite</i>
+            </a>
+          </div>
+          <div class="card-content">
+            <span class="card-title">Mango & Chickpea Curry</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          </div>
+          <div class="card-action">
+            <a href="">More details</a>
+            <a href="">View Ingredients</a>
+          </div>
+        </div>
       </div>
-    </nav>
+      <div class="col s12 l6">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/pasta.jpg" alt="">
+            <a href="" class="halfway-fab btn-floating pink pulse">
+              <i class="material-icons">favorite</i>
+            </a>
+          </div>
+          <div class="card-content">
+            <span class="card-title">Rainbow Pasta Salad</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          </div>
+          <div class="card-action">
+            <a href="">More details</a>
+            <a href="">View Ingredients</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  
-  <ul class="sidenav" id="mobile-links">
-    <li><a href="">Home</a></li>
-    <li><a href="">About</a></li>
-    <li><a href="">Contact</a></li>
-  </ul>
 
   <!-- Compiled and minified JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
