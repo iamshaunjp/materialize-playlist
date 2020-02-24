@@ -1,0 +1,17 @@
+header {
+  background: url(/img/man.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 1000px;
+}
+
+@media screen and (max-width: 670px) {
+  header {
+    min-height: 500px;
+  }
+}
+
+.section {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
