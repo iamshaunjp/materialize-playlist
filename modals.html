@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <title>Jocatins</title>
+    <style>
+      .row > div {
+        padding: 10px;
+        background: orchid;
+        border: 2px solid white;
+        line-height: 60px;
+      }
+      .row {
+        margin: 40px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Modals</h2>
+      <a href="#titan" class="btn orange modal-trigger">
+        Terms and Conditions Apply</a
+      >
+
+      <div class="modal" id="titan">
+        <div class="modal-content">
+          <h3>Titan's Rules</h3>
+          <p>
+            Compressed and uncompressed copies of jQuery files are available.
+            The uncompressed file is best used during development or debugging;
+            the compressed file saves bandwidth and improves performance in
+            production. You can also download a sourcemap file for use when
+            debugging with a compressed file.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="modal-close btn orange">Agree and Close</a>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.modal').modal()
+      })
+    </script>
+  </body>
+</html>
+git
